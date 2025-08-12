@@ -1,9 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'Prompt Enhancer • Groq + Kimi',
-  description: 'Mini app to enhance prompts and copy as Markdown'
+  title: 'Prymo • AI Prompt Enhancement',
+  description: 'Modern app to enhance your prompts with Groq AI and export as Markdown'
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }){
